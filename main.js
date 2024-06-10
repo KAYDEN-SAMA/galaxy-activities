@@ -1,6 +1,6 @@
 const buttons = document.querySelectorAll('.planetButton');
 
-selectedPlanet = "first guild";
+selectedPlanet = "earth";
 
 function storeButtonValue(event) {
   buttonValue = event.target.value;
