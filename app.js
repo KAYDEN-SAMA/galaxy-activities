@@ -109,7 +109,7 @@ searchButton.addEventListener('click', () => {
           
           shopLinkButton.addEventListener('click', () => {
             localStorage.setItem('username', usernameSearchValue);
-            window.location.href = "/shop/shop.html";
+            window.location.href = "shop.html";
           })
           
         } else {
